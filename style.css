@@ -1,0 +1,329 @@
+body{
+    background-color: #0f0f0f;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+}
+.main-logo-header{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 3.5fr 1fr;
+    margin-bottom: 0;
+}
+#lang{
+    background-color: #0f0f0f;
+    color: aliceblue;
+    border: none;
+    width: 100px;
+    padding-left:25px ;
+    height: 30px;
+}
+
+
+.lang-sign-buttons{
+    width: auto;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sign-button{
+    display: inline;
+    border-radius: 40px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.lang-div{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid rgba(182, 170, 170,0.5);
+    border-radius: 30px;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.lang-div svg{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.main-photo-div{
+    border-top: 3px solid rgba(175, 177, 165,0.8);
+    border-left: 3px solid rgba(175, 177, 165,0.8);
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 500px;
+    width: 1260px;
+    overflow: hidden;
+
+}
+
+.main-photo-div img{
+    
+    width: 1260px;
+    overflow: hidden;
+    z-index: -1;    
+}
+.main-photo-div .text{
+    margin-top: -300px;
+    margin-left: 330px;
+    width: 700px;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+    
+    
+}
+
+.text h1{
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 65px;
+    z-index: 100;
+}
+.text p{
+    margin-top: -15px;
+    font-size: large;
+    z-index: 100;
+}
+.flouting-paragraph{
+    color: rgb(228, 196, 196);
+    text-align: center;
+}
+.email-entry{
+    background-color: #0f0f0f;
+    color: rgb(163, 165, 158);
+    border: 1px solid rgb(159, 160, 153);
+    width: 335px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 350px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 550;
+}
+#signin-button{
+    background-color: rgba(255, 0, 0,0.9);
+    color: currentColor;
+    height: 50px;
+    width: 200px;
+    border: 0;
+    border-radius: 50px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+#signin-button:hover{
+    background-color: rgba(255, 0, 0,0.7);
+}
+.logo-netflix{
+    width: 150px;
+    height: 50px;
+}
+.logo-netflix1{
+    padding-left: 15px;
+}
+.blacker{
+    position: absolute;
+    z-index: 0;
+    height: 300px;
+    width: 1213px;
+    border-radius: 20px;
+    top: 95px;
+    left: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 205px;
+    padding-left: 50px;
+}
+.main-selection-head{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.selector-of-shows{
+    overflow: hidden;
+}
+.main-selection-head .selector-of-shows select{
+    margin-top: 30px;
+    height: 35px;
+    border: 1px solid rgb(69, 70, 67);
+    border-radius: 40px;
+    background-color: #0f0f0f;
+    color: currentColor;
+    padding-left: 40px;
+    font-size: medium;
+}
+.selector-of-shows #place{
+    width: 110px;
+}
+.selector-of-shows #type-shows{
+    width: 130px;
+}
+.selector-of-shows img{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 35px;
+    width: 30px;
+    height: 25px;
+    border-radius: 100%;
+}
+.shows-showcase{
+    display: grid;
+    margin: 50px;
+    grid-template-columns: repeat(7,auto);
+}
+.shows-showcase .showimg1 img{
+    width: 130px;
+
+}
+.shows-showcase h1{
+    color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    display: inline-block;
+    height: 1em;
+    top: -190px;
+    left: 20px;
+    font-weight: 900;
+    font-size: 4.5rem;
+    -webkit-text-stroke: 0.125rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+.shows-showcase img{
+    z-index: -1;
+    width: 130px;
+    border-radius: 30px;
+}
+.shows-showcase .showimg7 img{
+    width: 55px;
+    border-bottom-right-radius:0 ;
+    border-top-right-radius:0 ;
+}
+.shows-showcase button{
+    position: relative;
+    width: 25px;
+    height: 80px;
+    font-size: x-large;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: currentColor;
+    border: none;
+    border-radius: 20px;
+    top : -210px;
+    left: 1170px;
+}
+.shows-showcase button:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.reason-head{
+    position: absolute;
+    top: 1140px;
+    left: 140px;
+}
+.reason-file{
+    margin-top: -60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
+    height: 130px;
+}
+.reason-file h3{
+    font-size: larger;
+    font-weight: 500;
+}
+.reason-file div{
+    background-color: rgba(51, 47, 47, 0.7);
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.reason-file img{
+    margin-left: 170px;
+    margin-top: -12px;
+}
+.reason-file .reason3 img{
+    margin-top:18px ;
+}
+.head-questions{
+    margin-left: 100px;
+    
+}
+.ques {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:  rgba(51, 47, 47, 0.6);
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 70px;
+    border-radius: 20px;
+    margin-bottom: 7px;
+    padding-top: 10px;
+}
+.ques h2{
+    text-align: right;
+    margin-top: -10px;
+    font-size: 50px;
+    font-weight: 50;
+    color:  rgba(230, 214, 214, 0.9);;
+}
+.ques:hover{
+    background-color:  rgba(51, 47, 47, 0.9);
+}
+.getstarted-button{
+  margin-left: 44%;
+  height: 38px;
+  width: 150px;
+  background-color: rgb(255, 0, 0);
+  color: currentColor;
+  border: 0;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 35px;
+  padding-top: 5px;
+}
+.getstarted-button:hover{
+    background-color: rgba(255, 0, 0,0.8);
+}
+.ending-part-heading{
+    text-align: center;
+    font-weight: 500;
+}
+.contact-num{
+    color: rgba(228, 233, 238,0.7);
+    margin-left: 100px;
+}
+.contact-num a{
+    color: rgba(228, 233, 238,0.7);
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 100px;
+    margin-top: 40px;
+}
+footer div a{
+    color: rgba(228, 233, 238,0.7);
+    font-size: 14px;
+    font-weight: 500;
+}
+footer div{
+    width: 180px;
+}
+.spacer{
+    margin-left: 95px;
+    margin-top: 40px;
+}
+#end{
+    margin-left: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
